@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AccessCore Pro — Controlador de Acesso Empresarial</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-mark">◆</div>
+        <div>
+          <strong>AccessCore</strong>
+          <span>Enterprise Demo</span>
+        </div>
+      </div>
+      <nav class="nav" id="nav"></nav>
+      <div class="demo-chip" title="Protótipo front-end sem backend real">
+        <span class="pulse-dot"></span>
+        Modo Demonstração
+      </div>
+    </aside>
+
+    <section class="workspace">
+      <header class="topbar">
+        <button class="icon-btn mobile-only" id="menuBtn" aria-label="Abrir menu">☰</button>
+        <div>
+          <p class="eyebrow">Controlador empresarial</p>
+          <h1 id="pageTitle">Dashboard</h1>
+        </div>
+        <div class="topbar-actions">
+          <label class="search-box" aria-label="Busca global">
+            <span>⌕</span>
+            <input id="globalSearch" type="search" placeholder="Buscar pessoa, documento, código, placa..." />
+          </label>
+          <button class="ghost-btn" id="themeBtn" title="Alternar tema">◐ Tema</button>
+        </div>
+      </header>
+
+      <main id="app" class="content-area"></main>
+    </section>
+  </div>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop" role="dialog" aria-modal="true">
+    <div class="modal" id="modal"></div>
+  </div>
+
+  <div class="confirm-backdrop hidden" id="confirmBackdrop">
+    <div class="confirm-box">
+      <div class="confirm-icon">!</div>
+      <h3 id="confirmTitle">Confirmar ação</h3>
+      <p id="confirmText">Essa operação não pode ser desfeita.</p>
+      <div class="modal-actions">
+        <button class="ghost-btn" id="confirmCancel">Cancelar</button>
+        <button class="danger-btn" id="confirmOk">Confirmar</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toastStack" class="toast-stack"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
