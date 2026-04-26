@@ -1,13 +1,11 @@
 # AccessCore Sentinel — protótipo SaaS de controle de acesso
 [![status](https://img.shields.io/badge/status-demo-blue)](https://brunomaysoncode.github.io/accesscore-sentinel/)
-[![frontend](https://img.shields.io/badge/frontend-HTML%2FCSS%2FJS-black)](https://brunomaysoncode.github.io/accesscore-sentinel/)
+[![frontend](https://img.shields.io-badge/frontend-HTML%2FCSS%2FJS-black)](https://brunomaysoncode.github.io/accesscore-sentinel/)
 [![storage](https://img.shields.io/badge/storage-localStorage-green)](https://brunomaysoncode.github.io/accesscore-sentinel/)
 
 <p align="center">
-  <a href="https://brunomaysoncode.github.io/accesscore-sentinel/" target="_blank"
-     style="display:inline-block;padding:16px 26px;border-radius:14px;background:#0EA5E9;
-            color:#08121F;text-decoration:none;font-weight:900;font-size:18px;letter-spacing:0.3px;">
-    ▶️ Abrir Demonstração
+  <a href="https://brunomaysoncode.github.io/accesscore-sentinel/" target="_blank">
+    <img alt="Abrir Demonstração" src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20Abrir%20Demonstra%C3%A7%C3%A3o-0EA5E9?style=for-the-badge&labelColor=0EA5E9&color=0EA5E9" />
   </a>
 </p>
 
